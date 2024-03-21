@@ -24,3 +24,25 @@ let num1 = 95
 let stringNum1 = String(num1)
 console.log(stringNum1)
 console.log(typeof stringNum1)
+
+
+
+// ******************** Operations ***********************
+
+// console.log(2+2)  // Addition
+// console.log(2-2)  // Subtraction
+// console.log(2*2)  // Multiplication
+// console.log(2/2)  // Division
+// console.log(2**2) // Power
+// console.log(2%3)  // Remainder
+
+let str1 = "Shubham"
+let str2 = " Kumar"
+let str3 = str1 + str2
+console.log(str3);
+
+let gameCounter = 100
+++gameCounter
+console.log(gameCounter);
+gameCounter++;
+console.log(gameCounter);
